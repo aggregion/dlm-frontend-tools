@@ -1,0 +1,16 @@
+{
+  "name": "frontend-tools",
+  "version": "1.0.1",
+  "description": "You can use this package for convenient one-command build and release making. First of all install this package globally",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.aggregion.com:7999/frt/frontend-tools.git"
+  },
+  "bin": {
+    "aggr-release": "./bin/release.sh",
+    "aggr-build": "./bin/build-from-master.sh",
+    "package-version.sh": "./bin/package-version.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
